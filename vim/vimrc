@@ -651,10 +651,6 @@ nnoremap <leader>gci :Gcommit --verbose<CR>
 nnoremap <leader>gL :Glog -10 -- \| q<CR>
 nnoremap <leader>gl :Glog -10 \| q<CR>
 
-nnoremap [q :cprev \| on<CR>
-nnoremap ]q :cnext \| on<CR>
-nnoremap <leader>co :copen<CR>
-
 " }}}
 
 " gundo key mappings and options

@@ -62,6 +62,9 @@ Plug 'gisraptor/vim-lilypond-integrator'
 Plug 'tfnico/vim-gradle'
 Plug 'rdolgushin/groovy.vim'
 
+" QuicFix Plugin
+Plug 'yssl/QFEnter'
+
 if has('nvim')
     function! DoRemote(arg)
         UpdateRemotePlugins
