@@ -8,6 +8,10 @@
 # alias
 
 alias pymovie='source /home/fodrh1201/movieQA/bin/activate'
+alias demo='source /home/fodrh1201/demoApp/bin/activate'
+alias vi='nvim'
+
+# CUDA_VISIBLE_DEVICES=1 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32
 
 # pyenv
 

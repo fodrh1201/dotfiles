@@ -595,7 +595,7 @@ command! -nargs=0 Lint PymodeLint
 let g:pymode_folding = 0
 
 " disable rope (terribly slow), in favor of jedi-vim
-let g:pymode_rope = 0
+let g:pymode_rope = 1
 
 " prefer jedi's <leader>r (rename), instead of run
 " however, jedi resets all the highlight :( - why?
@@ -616,6 +616,10 @@ let g:pymode_lint_cwindow = 0
 "  E401 : multiple imports on one line
 "  E501 : line too long
 let g:pymode_lint_ignore = "E401,E501"
+
+" Override go-to.definition key shortcut
+let g:pymode_rope_goto_definition_bind = "<C-]>"
+let g:pymode_rope_goto_definition_cmd = 'e'
 
 " Make jedi's completeopt not to include 'longest',
 " to prevent underscore prefix auto-completion (e.g. self.__)
