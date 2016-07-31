@@ -5,6 +5,20 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #   Jongwook Choi <wookayin@gmail.com>
 
+# alias
+
+alias pymovie='source /home/fodrh1201/movieQA/bin/activate'
+
+# pyenv
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# pyenv-virtualenv
+
+eval "$(pyenv virtualenv-init -)"
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -26,6 +40,7 @@ fi
 if [[ "`uname`" == "Darwin" ]] && [[ -f ${HOME}/.iterm2_shell_integration.zsh ]]; then
     source ${HOME}/.iterm2_shell_integration.zsh
 fi
+
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
