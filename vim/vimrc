@@ -144,6 +144,10 @@ endif
 " 2. Key and Functional Mappings
 """"""""""""""""""""""""""""""""
 
+" Hyungjin's edit
+inoremap <c-g>u<c-u>
+inoremap <c-g>u<c-w>
+
 " the leader key
 let mapleader=","           " comma is the <Leader> key.
 
