@@ -3,8 +3,10 @@
 
 " the default (system) python to use.
 " That python should have 'neovim' package: e.g. /usr/bin/pip install neovim
-let g:python_host_prog = '/usr/bin/python'
-let g:python3_host_prog = '/usr/bin/python3'
+" let g:python_host_prog = '/home/fodrh1201/.virtualenvs/LSMDC2/bin/python'
+" let g:python3_host_prog = '/home/fodrh1201/.virtualenvs/LSMDC3/bin/python'
+let g:python3_host_prog = 'python'
+let g:python_host_prog = 'python'
 
 " delegate to the plain vimrc.
 source ~/.vimrc
